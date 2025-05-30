@@ -127,13 +127,13 @@ if (isset($_GET['remove']) && isset($_GET['field'])) {
             </p>
 
             <!-- Role Selection -->
-            <div class="mb-6">
+            <!-- <div class="mb-6">
                 <label class="block text-sm font-medium text-gray-700 mb-2">Role</label>
                 <select name="role" class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-red-500 focus:border-red-500">
                     <option value="regular" <?php echo $role === 'regular' ? 'selected' : ''; ?>>Regular</option>
                     <option value="Association" <?php echo $role === 'Association' ? 'selected' : ''; ?>>Association</option>
                 </select>
-            </div>
+            </div> -->
 
             <!-- Office and Godown Images -->
             <div class="mb-6">

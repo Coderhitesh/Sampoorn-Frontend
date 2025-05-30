@@ -21,7 +21,7 @@
                      <div class="swiper-wrapper">
                          <div class="slide-item swiper-slide over-hidden">
                              <div class="image-bg cover-bg w-100 h-100 before-z-index" data-overlay="6">
-                                 <img loading="lazy" src="assets/img/portfolio/project4/1.jpg"
+                                 <img loading="lazy" src="assets/img/xxB6gUAHTli4BVwyTAPfvA.webp"
                                      class="cover-bg-img dsn-swiper-parallax-transform" alt="">
                              </div>
                              <div class="slide-content p-absolute">
@@ -39,7 +39,7 @@
 
                          <div class="slide-item swiper-slide over-hidden">
                              <div class="image-bg cover-bg w-100 h-100 before-z-index" data-overlay="7">
-                                 <img loading="lazy" src="assets/img/portfolio/project1/1.jpg"
+                                 <img loading="lazy" src="assets/img/p8MF0vmfRE2cP5-wBkFTGw.webp"
                                      class="cover-bg-img dsn-swiper-parallax-transform" alt="">
                              </div>
                              <div class="slide-content p-absolute">
@@ -57,7 +57,7 @@
 
                          <div class="slide-item swiper-slide over-hidden">
                              <div class="image-bg cover-bg w-100 h-100 before-z-index" data-overlay="5">
-                                 <img loading="lazy" src="assets/img/portfolio/project2/1.jpg"
+                                 <img loading="lazy" src="assets/img/akelQqFsSmOm9RnlxUg0DA.webp"
                                      class="cover-bg-img dsn-swiper-parallax-transform" alt="">
                              </div>
                              <div class="slide-content p-absolute">
@@ -71,7 +71,7 @@
 
                          <div class="slide-item swiper-slide over-hidden">
                              <div class="image-bg cover-bg w-100 h-100 before-z-index" data-overlay="3">
-                                 <img loading="lazy" src="assets/img/portfolio/project3/1.jpg"
+                                 <img loading="lazy" src="assets/img/keGlAOLMR1y78TG9GaiSlw.webp"
                                      class="cover-bg-img dsn-swiper-parallax-transform" alt="">
                              </div>
                              <div class="slide-content p-absolute">

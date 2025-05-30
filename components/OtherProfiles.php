@@ -17,7 +17,7 @@ $filters = [
 
 // Mock data - Replace with your API call
 function fetchProfiles($role) {
-    // This would be your API call to https://www.api.upfda.in/api/v1/get_distributor
+    // This would be your API call to http://localhost:5001/api/v1/get_distributor
     // For demo purposes, using mock data
     $mockData = [
         [

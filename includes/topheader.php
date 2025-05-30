@@ -239,31 +239,15 @@
             </li>
 
             <li class="nav-item ">
-                <!-- <a title="Network" onclick="sessionStorage.removeItem('refreshedPage')" href="network.php"> -->
                 <a title="Network" href="network.php">
                     <span class="overflow">Network</span>
                 </a>
             </li>
-            <!-- <li class="nav-item ">
-                        <a title="Contact" href="brands.php">
-                            <span class="overflow">Brands</span>
-                        </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a title="Contact" href="brands.php">
-                            <span class="overflow">For Brands</span>
-                        </a>
-                    </li> -->
             <li class="nav-item ">
                 <a title="Franchise" href="distribution-franchise.php">
                     <span class="overflow">Franchise</span>
                 </a>
             </li>
-            <!-- <li class="nav-item ">
-                <a title="Franchise" href="brands.php">
-                    <span class="overflow">Franchise</span>
-                </a>
-            </li> -->
             <li class="nav-item ">
                 <a title="For Brands" href="for-brand.php">
                     <span class="overflow">For Brands</span>
@@ -296,21 +280,6 @@
 
                 </div>
             </div>
-            <!-- <div class="nav-social nav-content mt-30">
-                <div class="nav-social-inner p-relative">
-                    <h5 class="sm-title-block mb-10">Follow us</h5>
-                    <ul style="--dsn-li-name: dsn6;">
-                        <li style="--dsn-li-index: 0;"><a href="#0" target="_blank"
-                                rel="nofollow noopener noreferrer">Dribbble.</a></li>
-                        <li style="--dsn-li-index: 1;"><a href="#0" target="_blank"
-                                rel="nofollow noopener noreferrer">Behance.</a></li>
-                        <li style="--dsn-li-index: 2;"><a href="#0" target="_blank"
-                                rel="nofollow noopener noreferrer">Linkedin.</a></li>
-                        <li style="--dsn-li-index: 3;"><a href="#0" target="_blank"
-                                rel="nofollow noopener noreferrer">Twitter.</a></li>
-                    </ul>
-                </div>
-            </div> -->
         </div>
     </nav>
     <div id="navbar_toggle" class="navbar-toggle">

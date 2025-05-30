@@ -29,7 +29,7 @@
  <!-- retailer form  -->
 
 
- <script>
+ <script  defer>
    // Form data management
    let formData = {
      distributorEntityName: "",
@@ -199,17 +199,3 @@
      }
    });
  </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -3363,7 +3363,7 @@ a:active {
   line-height: 130px;
 }
 
-.color-yellow{
+.color-yellow {
   color: #ee8c2a !important;
 }
 
@@ -3376,29 +3376,29 @@ a:active {
 }
 
 .hitesh-feature-image {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .hitesh-feature-img {
-    width: 100%;
-    max-width: 200px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .hitesh-feature-img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .hitesh-feature-img {
-        max-width: 150px;
-        height: 120px;
-    }
+  .hitesh-feature-img {
+    max-width: 150px;
+    height: 120px;
+  }
 }
 
 .header-page .contact-links a {
@@ -12564,806 +12564,717 @@ body.tax-product_cat #dsn_header {
   animation-delay: 0.4s;
 }
 
-.login-btn{
+.login-btn {
   padding: 5px 19px;
 }
 
 
 
 
-.hitesh-distributor-container {
+
+
+
+.hitesh-retailer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 16px;
+}
+
+.hitesh-retailer-form-wrapper {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+}
+
+.hitesh-retailer-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.hitesh-retailer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.hitesh-retailer-subtitle {
+  color: #6b7280;
+  font-size: 1.1rem;
+}
+
+.hitesh-retailer-form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.hitesh-retailer-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.hitesh-retailer-label {
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.hitesh-retailer-input,
+.hitesh-retailer-select,
+.hitesh-retailer-textarea {
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  background: white;
+}
+
+.hitesh-retailer-input:focus,
+.hitesh-retailer-select:focus,
+.hitesh-retailer-textarea:focus {
+  outline: none;
+  border-color: #CF2732;
+  box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
+}
+
+.hitesh-retailer-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.hitesh-retailer-section-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #CF2732;
+  margin: 32px 0 16px 0;
+  border-bottom: 2px solid #CF2732;
+  padding-bottom: 8px;
+}
+
+.hitesh-retailer-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.hitesh-retailer-checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hitesh-retailer-checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: #CF2732;
+}
+
+.hitesh-retailer-dynamic-list {
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  background: #f9fafb;
+}
+
+.hitesh-retailer-list-item {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.hitesh-retailer-list-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.hitesh-retailer-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.hitesh-retailer-btn-primary {
+  background: #CF2732;
+  color: white;
+}
+
+.hitesh-retailer-btn-primary:hover {
+  background: #b91c1c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(207, 39, 50, 0.3);
+}
+
+.hitesh-retailer-btn-secondary {
+  background: #6b7280;
+  color: white;
+}
+
+.hitesh-retailer-btn-secondary:hover {
+  background: #4b5563;
+}
+
+.hitesh-retailer-btn-small {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.hitesh-retailer-btn-add {
+  background: #10b981;
+  color: white;
+}
+
+.hitesh-retailer-btn-remove {
+  background: #ef4444;
+  color: white;
+}
+
+.hitesh-retailer-loading {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.hitesh-retailer-toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  z-index: 1000;
+  animation: slideIn 0.3s ease;
+}
+
+.hitesh-retailer-toast-success {
+  background: #10b981;
+}
+
+.hitesh-retailer-toast-error {
+  background: #ef4444;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .hitesh-retailer-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hitesh-retailer-container {
+    padding: 24px 16px;
+  }
+
+  .hitesh-retailer-form-wrapper {
+    padding: 24px;
+  }
+}
+
+
+
+/* < !DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Association Form</title><style> */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hitesh-association-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.hitesh-association-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 16px;
+}
+
+.hitesh-association-form {
+  background: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.hitesh-association-step-container {
+  margin-bottom: 24px;
+}
+
+.hitesh-association-form-group {
+  margin-bottom: 20px;
+}
+
+.hitesh-association-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 6px;
+}
+
+.hitesh-association-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: white;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.hitesh-association-input:focus {
+  outline: none;
+  border-color: #CF2732;
+  box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
+}
+
+.hitesh-association-textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: white;
+  min-height: 80px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.hitesh-association-textarea:focus {
+  outline: none;
+  border-color: #CF2732;
+  box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
+}
+
+.hitesh-association-select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.hitesh-association-select:focus {
+  outline: none;
+  border-color: #CF2732;
+  box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
+}
+
+.hitesh-association-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hitesh-association-checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hitesh-association-checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.hitesh-association-checkbox-label {
+  font-size: 14px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.hitesh-association-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.hitesh-association-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.hitesh-association-button-primary {
+  background-color: #CF2732;
+  color: white;
+}
+
+.hitesh-association-button-primary:hover:not(:disabled) {
+  background-color: #b91c1c;
+}
+
+.hitesh-association-button-secondary {
+  background-color: #6b7280;
+  color: white;
+}
+
+.hitesh-association-button-secondary:hover:not(:disabled) {
+  background-color: #4b5563;
+}
+
+.hitesh-association-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.hitesh-association-button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.hitesh-association-loading {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: hitesh-association-spin 1s ease-in-out infinite;
+  margin-right: 8px;
+}
+
+@keyframes hitesh-association-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hitesh-association-toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  z-index: 1000;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hitesh-association-toast.show {
+  transform: translateX(0);
+}
+
+.hitesh-association-toast-success {
+  background-color: #10b981;
+}
+
+.hitesh-association-toast-error {
+  background-color: #ef4444;
+}
+
+.hitesh-association-hidden {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .hitesh-association-wrapper {
+    padding: 24px 16px;
+  }
+
+  .hitesh-association-form {
+    padding: 20px;
+  }
+
+  .hitesh-association-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hitesh-association-button-group {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+
+
+.hitesh-register-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 15px 25px;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 150px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.hitesh-register-option:hover .hitesh-register-label {
+  border-color: #D70808;
+  background-color: #e7f1ff;
+  color: #D70808;
+}
+
+
+
+
+
+.hitesh-log-min-h-screen {
             min-height: 100vh;
-            background-color: #f9fafb;
-            padding: 0;
-            margin: 0;
         }
-
-        .hitesh-distributor-wrapper {
-            max-width: 1280px;
-            margin: 0 auto;
-            padding: 3rem 1rem;
+        .hitesh-log-bg-gradient-to-br {
+            background: linear-gradient(to bottom right, #dbeafe, #ffffff, #faf5ff);
         }
-
-        .hitesh-distributor-form-container {
-            background: white;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            border-radius: 0.5rem;
+        .hitesh-log-flex {
+            display: flex;
+        }
+        .hitesh-log-items-center {
+            align-items: center;
+        }
+        .hitesh-log-justify-center {
+            justify-content: center;
+        }
+        .hitesh-log-p-4 {
+            padding: 1rem;
+        }
+        .hitesh-log-w-full {
+            width: 100%;
+        }
+        .hitesh-log-max-w-md {
+            max-width: 28rem;
+        }
+        .hitesh-log-bg-white {
+            background-color: white;
+        }
+        .hitesh-log-rounded-2xl {
+            border-radius: 1rem;
+        }
+        .hitesh-log-shadow-xl {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .hitesh-log-p-8 {
             padding: 2rem;
         }
-
-        .hitesh-distributor-progress {
-            margin-bottom: 2rem;
-        }
-
-        .hitesh-distributor-progress-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1rem;
-        }
-
-        .hitesh-distributor-step-circle {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 2.5rem;
-            height: 2.5rem;
-            border-radius: 50%;
-            color: white;
-            font-weight: 600;
-        }
-
-        .hitesh-distributor-step-active {
-            background-color: #CF2732;
-        }
-
-        .hitesh-distributor-step-inactive {
-            background-color: #d1d5db;
-        }
-
-        .hitesh-distributor-step-line {
-            height: 0.25rem;
-            width: 6rem;
-        }
-
-        .hitesh-distributor-step-labels {
-            display: flex;
-            justify-content: center;
-            gap: 4rem;
-            margin-top: 0.5rem;
-        }
-
-        .hitesh-distributor-step-label {
-            font-size: 0.875rem;
-        }
-
-        .hitesh-distributor-step-label-active {
-            color: #CF2732;
-            font-weight: 600;
-        }
-
-        .hitesh-distributor-step-label-inactive {
-            color: #6b7280;
-        }
-
-        .hitesh-distributor-form-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
-
-        .hitesh-distributor-form-group {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .hitesh-distributor-label {
-            display: block;
-            font-size: 0.875rem;
-            font-weight: 500;
-            color: #374151;
-            margin-bottom: 0.5rem;
-        }
-
-        .hitesh-distributor-input {
-            width: 100%;
-            padding: 0.75rem;
-            border: 1px solid #d1d5db;
-            border-radius: 0.375rem;
-            font-size: 1rem;
-            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-        }
-
-        .hitesh-distributor-input:focus {
-            outline: none;
-            border-color: #CF2732;
-            box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
-        }
-
-        .hitesh-distributor-select {
-            width: 100%;
-            padding: 0.75rem;
-            border: 1px solid #d1d5db;
-            border-radius: 0.375rem;
-            font-size: 1rem;
-            background-color: white;
-            cursor: pointer;
-        }
-
-        .hitesh-distributor-select:focus {
-            outline: none;
-            border-color: #CF2732;
-            box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
-        }
-
-        .hitesh-distributor-textarea {
-            width: 100%;
-            padding: 0.75rem;
-            border: 1px solid #d1d5db;
-            border-radius: 0.375rem;
-            font-size: 1rem;
-            resize: vertical;
-            min-height: 100px;
-        }
-
-        .hitesh-distributor-textarea:focus {
-            outline: none;
-            border-color: #CF2732;
-            box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
-        }
-
-        .hitesh-distributor-file-input {
-            width: 100%;
-            padding: 0.75rem;
-            border: 1px solid #d1d5db;
-            border-radius: 0.375rem;
-            font-size: 1rem;
-            cursor: pointer;
-        }
-
-        .hitesh-distributor-btn {
-            padding: 0.75rem 1.5rem;
-            border-radius: 0.375rem;
-            font-weight: 500;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: all 0.15s ease-in-out;
-            border: none;
-        }
-
-        .hitesh-distributor-btn-primary {
-            background-color: #CF2732;
-            color: white;
-        }
-
-        .hitesh-distributor-btn-primary:hover {
-            background-color: #b91c1c;
-        }
-
-        .hitesh-distributor-btn-secondary {
-            background-color: #6b7280;
-            color: white;
-        }
-
-        .hitesh-distributor-btn-secondary:hover {
-            background-color: #4b5563;
-        }
-
-        .hitesh-distributor-btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-        }
-
-        .hitesh-distributor-btn-group {
-            display: flex;
-            justify-content: space-between;
-            gap: 1rem;
+        .hitesh-log-space-y-8 > * + * {
             margin-top: 2rem;
         }
-
-        .hitesh-distributor-loading {
-            display: inline-block;
-            width: 1rem;
-            height: 1rem;
-            border: 2px solid transparent;
-            border-top: 2px solid currentColor;
-            border-radius: 50%;
-            animation: hitesh-distributor-spin 1s linear infinite;
+        .hitesh-log-space-y-6 > * + * {
+            margin-top: 1.5rem;
         }
-
-        @keyframes hitesh-distributor-spin {
-            0% {
-                transform: rotate(0deg);
-            }
-
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-
-        .hitesh-distributor-hidden {
-            display: none;
-        }
-
-        .hitesh-distributor-array-input {
-            margin-bottom: 0.5rem;
-        }
-
-        .hitesh-distributor-add-btn {
-            background-color: #10b981;
-            color: white;
-            padding: 0.5rem 1rem;
-            border: none;
-            border-radius: 0.25rem;
-            cursor: pointer;
-            font-size: 0.875rem;
+        .hitesh-log-space-y-2 > * + * {
             margin-top: 0.5rem;
         }
-
-        .hitesh-distributor-remove-btn {
-            background-color: #ef4444;
-            color: white;
-            padding: 0.25rem 0.5rem;
-            border: none;
-            border-radius: 0.25rem;
-            cursor: pointer;
-            font-size: 0.75rem;
+        .hitesh-log-text-center {
+            text-align: center;
+        }
+        .hitesh-log-inline-flex {
+            display: inline-flex;
+        }
+        .hitesh-log-w-16 {
+            width: 4rem;
+        }
+        .hitesh-log-h-16 {
+            height: 4rem;
+        }
+        .hitesh-log-rounded-full {
+            border-radius: 9999px;
+        }
+        .hitesh-log-bg-pink-light {
+            background-color: #ffe3e5;
+        }
+        .hitesh-log-mb-4 {
+            margin-bottom: 1rem;
+        }
+        .hitesh-log-w-8 {
+            width: 2rem;
+        }
+        .hitesh-log-h-8 {
+            height: 2rem;
+        }
+        .hitesh-log-text-red {
+            color: #E2000A;
+        }
+        .hitesh-log-text-2xl {
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+        .hitesh-log-font-bold {
+            font-weight: 700;
+        }
+        .hitesh-log-text-gray-900 {
+            color: #111827;
+        }
+        .hitesh-log-text-gray-500 {
+            color: #6b7280;
+        }
+        .hitesh-log-mt-2 {
+            margin-top: 0.5rem;
+        }
+        .hitesh-log-text-sm {
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+        }
+        .hitesh-log-font-medium {
+            font-weight: 500;
+        }
+        .hitesh-log-text-gray-700 {
+            color: #374151;
+        }
+        .hitesh-log-block {
+            display: block;
+        }
+        .hitesh-log-relative {
+            position: relative;
+        }
+        .hitesh-log-absolute {
+            position: absolute;
+        }
+        .hitesh-log-inset-y-0 {
+            top: 0;
+            bottom: 0;
+        }
+        .hitesh-log-left-0 {
+            left: 0;
+        }
+        .hitesh-log-right-0 {
+            right: 0;
+        }
+        .hitesh-log-pl-3 {
+            padding-left: 0.75rem;
+        }
+        .hitesh-log-pr-3 {
+            padding-right: 0.75rem;
+        }
+        .hitesh-log-pr-12 {
+            padding-right: 3rem;
+        }
+        .hitesh-log-pl-10 {
+            padding-left: 2.5rem;
+        }
+        .hitesh-log-py-3 {
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+        }
+        .hitesh-log-px-4 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .hitesh-log-h-5 {
+            height: 1.25rem;
+        }
+        .hitesh-log-w-5 {
+            width: 1.25rem;
+        }
+        .hitesh-log-text-gray-400 {
+            color: #9ca3af;
+        }
+        .hitesh-log-pointer-events-none {
+            pointer-events: none;
+        }
+        .hitesh-log-border-2 {
+            border-width: 2px;
+        }
+        .hitesh-log-border-gray-200 {
+            border-color: #e5e7eb;
+        }
+        .hitesh-log-rounded-xl {
+            border-radius: 0.75rem;
+        }
+        .hitesh-log-focus-ring:focus {
+            outline: 2px solid transparent;
+            outline-offset: 2px;
+            box-shadow: 0 0 0 2px #E2000A;
+            border-color: #E2000A;
+        }
+        .hitesh-log-transition {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 200ms;
+        }
+        .hitesh-log-text-gray-600 {
+            color: #4b5563;
+        }
+        .hitesh-log-h-4 {
+            height: 1rem;
+        }
+        .hitesh-log-w-4 {
+            width: 1rem;
+        }
+        .hitesh-log-ml-2 {
             margin-left: 0.5rem;
         }
-
-        .hitesh-distributor-toast {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            padding: 1rem;
-            border-radius: 0.375rem;
+        .hitesh-log-bg-red {
+            background-color: #E2000A;
+        }
+        .hitesh-log-text-white {
             color: white;
-            font-weight: 500;
-            z-index: 1000;
-            transition: all 0.3s ease-in-out;
         }
-
-        .hitesh-distributor-toast-success {
-            background-color: #10b981;
+        .hitesh-log-hover-bg-red:hover {
+            background-color: #b30811;
         }
-
-        .hitesh-distributor-toast-error {
-            background-color: #ef4444;
-        }
-
-        @media (max-width: 640px) {
-            .hitesh-distributor-wrapper {
-                padding: 1rem;
-            }
-
-            .hitesh-distributor-form-container {
-                padding: 1rem;
-            }
-
-            .hitesh-distributor-form-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .hitesh-distributor-btn-group {
-                flex-direction: column;
-            }
-        }
-
-        .error-field {
-            border-color: #ef4444 !important;
-        }
-
-        .success-field {
-            border-color: #10b981 !important;
-        }
-
-        .toast {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            padding: 15px;
-            border-radius: 5px;
-            color: white;
-            z-index: 1000;
-        }
-
-        .toast-success {
-            background-color: #10b981;
-        }
-
-        .toast-error {
-            background-color: #ef4444;
-        }
-
-        .loading {
-            display: none;
-        }
-
-        .image-preview {
-            max-width: 200px;
-            max-height: 150px;
-            margin: 10px 0;
-            border: 1px solid #ddd;
-        }
-
-        .preview-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 10px;
-        }
-
-        .preview-item {
-            position: relative;
-            display: inline-block;
-        }
-
-        .remove-preview {
-            position: absolute;
-            top: -5px;
-            right: -5px;
-            background: red;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 20px;
-            height: 20px;
-            cursor: pointer;
-        }
-
-        .hidden {
-            display: none;
-        }
-
-
-
-
-        .hitesh-retailer-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 48px 16px;
-        }
-
-        .hitesh-retailer-form-wrapper {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-            padding: 32px;
-        }
-
-        .hitesh-retailer-header {
-            text-align: center;
-            margin-bottom: 32px;
-        }
-
-        .hitesh-retailer-title {
-            font-size: 2rem;
-            font-weight: bold;
-            color: #111827;
-            margin-bottom: 8px;
-        }
-
-        .hitesh-retailer-subtitle {
-            color: #6b7280;
-            font-size: 1.1rem;
-        }
-
-        .hitesh-retailer-form-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 24px;
-            margin-bottom: 24px;
-        }
-
-        .hitesh-retailer-form-group {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .hitesh-retailer-label {
-            font-weight: 600;
-            color: #374151;
-            margin-bottom: 8px;
-            font-size: 0.9rem;
-        }
-
-        .hitesh-retailer-input,
-        .hitesh-retailer-select,
-        .hitesh-retailer-textarea {
-            padding: 12px 16px;
-            border: 2px solid #e5e7eb;
-            border-radius: 8px;
-            font-size: 16px;
-            transition: border-color 0.3s ease;
-            background: white;
-        }
-
-        .hitesh-retailer-input:focus,
-        .hitesh-retailer-select:focus,
-        .hitesh-retailer-textarea:focus {
+        .hitesh-log-focus-outline:focus {
             outline: none;
-            border-color: #CF2732;
-            box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
         }
-
-        .hitesh-retailer-textarea {
-            resize: vertical;
-            min-height: 100px;
+        .hitesh-log-transform {
+            transform: translateZ(0);
         }
-
-        .hitesh-retailer-section-title {
-            font-size: 1.3rem;
-            font-weight: bold;
-            color: #CF2732;
-            margin: 32px 0 16px 0;
-            border-bottom: 2px solid #CF2732;
-            padding-bottom: 8px;
+        .hitesh-log-hover-scale:hover {
+            transform: scale(1.02);
         }
-
-        .hitesh-retailer-checkbox-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 16px;
-            margin-top: 8px;
-        }
-
-        .hitesh-retailer-checkbox-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .hitesh-retailer-checkbox {
-            width: 18px;
-            height: 18px;
-            accent-color: #CF2732;
-        }
-
-        .hitesh-retailer-dynamic-list {
-            border: 2px solid #e5e7eb;
-            border-radius: 8px;
-            padding: 16px;
-            background: #f9fafb;
-        }
-
-        .hitesh-retailer-list-item {
-            display: flex;
-            gap: 8px;
-            margin-bottom: 12px;
-            align-items: center;
-        }
-
-        .hitesh-retailer-list-input {
-            flex: 1;
-            padding: 8px 12px;
-            border: 1px solid #d1d5db;
-            border-radius: 6px;
-        }
-
-        .hitesh-retailer-btn {
-            padding: 12px 24px;
-            border: none;
-            border-radius: 8px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 16px;
-        }
-
-        .hitesh-retailer-btn-primary {
-            background: #CF2732;
-            color: white;
-        }
-
-        .hitesh-retailer-btn-primary:hover {
-            background: #b91c1c;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(207, 39, 50, 0.3);
-        }
-
-        .hitesh-retailer-btn-secondary {
-            background: #6b7280;
-            color: white;
-        }
-
-        .hitesh-retailer-btn-secondary:hover {
-            background: #4b5563;
-        }
-
-        .hitesh-retailer-btn-small {
-            padding: 6px 12px;
-            font-size: 14px;
-        }
-
-        .hitesh-retailer-btn-add {
-            background: #10b981;
-            color: white;
-        }
-
-        .hitesh-retailer-btn-remove {
-            background: #ef4444;
-            color: white;
-        }
-
-        .hitesh-retailer-loading {
-            opacity: 0.7;
-            cursor: not-allowed;
-        }
-
-        .hitesh-retailer-toast {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            padding: 16px 24px;
-            border-radius: 8px;
-            color: white;
-            font-weight: 600;
-            z-index: 1000;
-            animation: slideIn 0.3s ease;
-        }
-
-        .hitesh-retailer-toast-success {
-            background: #10b981;
-        }
-
-        .hitesh-retailer-toast-error {
-            background: #ef4444;
-        }
-
-        @keyframes slideIn {
-            from {
-                transform: translateX(100%);
-                opacity: 0;
-            }
-            to {
-                transform: translateX(0);
-                opacity: 1;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .hitesh-retailer-form-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .hitesh-retailer-container {
-                padding: 24px 16px;
-            }
-            
-            .hitesh-retailer-form-wrapper {
-                padding: 24px;
-            }
-        }
-
-
-
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Association Form</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .hitesh-association-container {
-            min-height: 100vh;
-            background-color: #f9fafb;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        }
-
-        .hitesh-association-wrapper {
-            max-width: 1280px;
-            margin: 0 auto;
-            padding: 48px 16px;
-        }
-
-        .hitesh-association-form {
-            background: white;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            border-radius: 8px;
-            padding: 32px;
-        }
-
-        .hitesh-association-step-container {
-            margin-bottom: 24px;
-        }
-
-        .hitesh-association-form-group {
-            margin-bottom: 20px;
-        }
-
-        .hitesh-association-label {
-            display: block;
-            font-size: 14px;
-            font-weight: 500;
-            color: #374151;
-            margin-bottom: 6px;
-        }
-
-        .hitesh-association-input {
-            width: 100%;
-            padding: 10px 12px;
-            border: 1px solid #d1d5db;
-            border-radius: 6px;
-            font-size: 14px;
-            background-color: white;
-            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-        }
-
-        .hitesh-association-input:focus {
-            outline: none;
-            border-color: #CF2732;
-            box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
-        }
-
-        .hitesh-association-textarea {
-            width: 100%;
-            padding: 10px 12px;
-            border: 1px solid #d1d5db;
-            border-radius: 6px;
-            font-size: 14px;
-            background-color: white;
-            min-height: 80px;
-            resize: vertical;
-            font-family: inherit;
-        }
-
-        .hitesh-association-textarea:focus {
-            outline: none;
-            border-color: #CF2732;
-            box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
-        }
-
-        .hitesh-association-select {
-            width: 100%;
-            padding: 10px 12px;
-            border: 1px solid #d1d5db;
-            border-radius: 6px;
-            font-size: 14px;
-            background-color: white;
+        .hitesh-log-cursor-pointer {
             cursor: pointer;
         }
-
-        .hitesh-association-select:focus {
-            outline: none;
-            border-color: #CF2732;
-            box-shadow: 0 0 0 3px rgba(207, 39, 50, 0.1);
+        .hitesh-log-hover-text-gray:hover {
+            color: #4b5563;
         }
-
-        .hitesh-association-checkbox-group {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-
-        .hitesh-association-checkbox-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .hitesh-association-checkbox {
-            width: 16px;
-            height: 16px;
-            cursor: pointer;
-        }
-
-        .hitesh-association-checkbox-label {
-            font-size: 14px;
-            color: #374151;
-            cursor: pointer;
-        }
-
-        .hitesh-association-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .hitesh-association-button {
-            padding: 12px 24px;
-            border: none;
-            border-radius: 6px;
-            font-size: 14px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.15s ease-in-out;
-        }
-
-        .hitesh-association-button-primary {
-            background-color: #CF2732;
-            color: white;
-        }
-
-        .hitesh-association-button-primary:hover:not(:disabled) {
-            background-color: #b91c1c;
-        }
-
-        .hitesh-association-button-secondary {
-            background-color: #6b7280;
-            color: white;
-        }
-
-        .hitesh-association-button-secondary:hover:not(:disabled) {
-            background-color: #4b5563;
-        }
-
-        .hitesh-association-button:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-        }
-
-        .hitesh-association-button-group {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 32px;
-        }
-
-        .hitesh-association-loading {
-            display: inline-block;
-            width: 16px;
-            height: 16px;
-            border: 2px solid #ffffff;
-            border-radius: 50%;
-            border-top-color: transparent;
-            animation: hitesh-association-spin 1s ease-in-out infinite;
-            margin-right: 8px;
-        }
-
-        @keyframes hitesh-association-spin {
-            to { transform: rotate(360deg); }
-        }
-
-        .hitesh-association-toast {
+        
+        /* Toast notification styles */
+        .hitesh-log-toast {
             position: fixed;
             top: 20px;
             right: 20px;
             padding: 12px 20px;
-            border-radius: 6px;
+            border-radius: 8px;
             color: white;
             font-weight: 500;
             z-index: 1000;
             transform: translateX(100%);
-            transition: transform 0.3s ease-in-out;
+            transition: transform 0.3s ease;
         }
-
-        .hitesh-association-toast.show {
+        .hitesh-log-toast.show {
             transform: translateX(0);
         }
-
-        .hitesh-association-toast-success {
+        .hitesh-log-toast.success {
             background-color: #10b981;
         }
-
-        .hitesh-association-toast-error {
+        .hitesh-log-toast.error {
             background-color: #ef4444;
-        }
-
-        .hitesh-association-hidden {
-            display: none;
-        }
-
-        @media (max-width: 640px) {
-            .hitesh-association-wrapper {
-                padding: 24px 16px;
-            }
-            
-            .hitesh-association-form {
-                padding: 20px;
-            }
-            
-            .hitesh-association-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .hitesh-association-button-group {
-                flex-direction: column;
-                gap: 12px;
-            }
         }

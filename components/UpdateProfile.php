@@ -128,7 +128,7 @@ function renderMultiSelect($name, $options, $selectedValues = []) {
     </style>
 </head>
 <body>
-    <div class="max-w-4xl mx-auto p-6">
+    <div class="max-w-4xl p-6">
         <?php if (isset($successMessage)): ?>
             <div class="mb-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
                 <?= htmlspecialchars($successMessage) ?>
