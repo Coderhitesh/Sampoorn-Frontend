@@ -270,8 +270,8 @@
                 </a>
             </li>
             <li class="nav-item ">
-                <a title="Contact" href="contact.php">
-                    <span class="overflow">Contact</span>
+                <a href="login.php" class="background-theme has-border-radius login-btn">
+                    Login
                 </a>
             </li>
         </ul>

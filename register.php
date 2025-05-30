@@ -17,7 +17,7 @@
         }
 
         .hitesh-register-inner {
-            max-width: 800px;
+            max-width: 1200px;
             margin: auto;
         }
 
@@ -204,11 +204,11 @@
             const contentMap = {
                 distributor: `
                 <h2>Distributor</h2>
-                <p>Manage large-scale distribution networks and supply chains efficiently.</p>
+               <?= include('distributor-register.php') ?>
             `,
                 retailer: `
                 <h2>Retailer</h2>
-                <p>Connect directly with customers and handle point-of-sale operations.</p>
+                <?= include('retailer-register.php') ?>
             `,
                 dealer: `
                 <h2>Association</h2>
