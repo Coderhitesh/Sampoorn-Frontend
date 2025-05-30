@@ -177,7 +177,7 @@
                 </div>
 
                 <div style="text-align: center; margin-top: 32px;">
-                    <button type="submit" class="hitesh-retailer-btn hitesh-retailer-btn-primary" id="submitBtn">
+                    <button type="submit" class="hitesh-retailer-btn hitesh-retailer-btn-primary" id="submit-retailerBtn">
                         Submit Registration
                     </button>
                 </div>
