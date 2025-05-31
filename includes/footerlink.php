@@ -29,7 +29,7 @@
  <!-- retailer form  -->
 
 
- <script  defer>
+ <script defer>
    // Form data management
    let formData = {
      distributorEntityName: "",
@@ -196,6 +196,25 @@
        });
      } else {
        console.error("Form element with id 'retailerForm' not found in DOM");
+     }
+   });
+ </script>
+
+ <script defer>
+   document.addEventListener('DOMContentLoaded', function() {
+     const link = document.getElementById('loginProfileLink');
+
+     // Check if token or user_id exists in sessionStorage
+     const userToken = sessionStorage.getItem('token'); // change to 'user_id' if you store user id
+
+     if (userToken) {
+       // User logged in
+       link.textContent = 'Profile';
+       link.href = 'profile.php'; // change this to your profile/dashboard page
+     } else {
+       // User not logged in
+       link.textContent = 'Login';
+       link.href = 'login.php';
      }
    });
  </script>

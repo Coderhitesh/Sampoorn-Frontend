@@ -1364,7 +1364,7 @@
                         const formData = new FormData();
 
                         // Add type field as 'distributor'
-                        formData.append('type', 'distributor');
+                        formData.append('type', 'Distributor');
                         console.log('✅ Added type: "distributor" to form data');
 
                         // Step 1 data
@@ -1528,7 +1528,7 @@
 
                         if (error.name === 'TypeError' && error.message.includes('fetch')) {
                             showToast('Network error: Please check your internet connection and server status', 'error');
-                            alert('Network Error: Unable to connect to the server. Please check:\n\n1. Your internet connection\n2. Server is running on localhost:5001\n3. CORS is properly configured on the server');
+                            // alert('Network Error: Unable to connect to the server. Please check:\n\n1. Your internet connection\n2. Server is running on localhost:5001\n3. CORS is properly configured on the server');
                         } else if (error.message.includes('Server error')) {
                             showToast('Server error: Please try again later', 'error');
                             alert(`Server Error: ${error.message}\n\nPlease check the server logs for more details.`);

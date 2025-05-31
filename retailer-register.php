@@ -361,11 +361,10 @@
                                 <label class="hitesh-retailer-label">Constitution Entity *</label>
                                 <select id="constitutionEntity" name="constitutionEntity" class="hitesh-retailer-select" required>
                                     <option value="">Select Constitution</option>
-                                    <option value="Proprietorship">Proprietorship</option>
-                                    <option value="Partnership">Partnership</option>
-                                    <option value="Private Limited">Private Limited</option>
-                                    <option value="Public Limited">Public Limited</option>
-                                    <option value="LLP">LLP</option>
+                                    <option value="proprietorship">Proprietorship</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="company">Company</option>
+                                    <option value="llp">LLP</option>
                                 </select>
                                 <span class="error-message" id="constitutionEntity-error"></span>
                             </div>

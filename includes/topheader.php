@@ -1,54 +1,3 @@
-<!-- <div id="dsn_preloader" class="preloader">
-
-        <div class="dsnload p-absolute">
-            <span class="dsnload__row">
-                <span class="dsnload__img">
-                    <img src="assets/img/logo.png" class="logo-dark" alt="Sampoorn" decoding="async" loading="lazy">
-                    <img src="assets/img/logo.png" class="logo-light" alt="Sampoorn" decoding="async" loading="lazy">
-                </span>
-            </span>
-            <span class="dsnload__row dsnload__row--sibling">
-                <span class="dsnload__img">
-                    <img src="assets/img/logo.png" class="logo-dark" alt="Sampoorn" decoding="async" loading="lazy">
-                    <img src="assets/img/logo.png" class="logo-light" alt="Sampoorn" decoding="async" loading="lazy">
-                </span>
-            </span>
-            <span class="dsnload__row dsnload__row--sibling">
-                <span class="dsnload__img">
-                    <img src="assets/img/logo.png" class="logo-dark" alt="Sampoorn" decoding="async" loading="lazy">
-                    <img src="assets/img/logo.png" class="logo-light" alt="Sampoorn" decoding="async" loading="lazy">
-                </span>
-            </span>
-            <span class="dsnload__row dsnload__row--sibling">
-                <span class="dsnload__img">
-                    <img src="assets/img/logo.png" class="logo-dark" alt="Sampoorn" decoding="async" loading="lazy">
-                    <img src="assets/img/logo.png" class="logo-light" alt="Sampoorn" decoding="async" loading="lazy">
-                </span>
-            </span>
-
-
-        </div>
-
-
-        <div class="logo-box v-middle">
-            <h3 class="title text-upper">Sampoorn</h3>
-        </div>
-
-        <div class="loading-count">
-            <p>0</p>
-        </div>
-
-        <span class="loading-text text-uppercase mt-30 dsn-container">Loading ...</span>
-        <div class="bg-load background-section d-flex align-items-end dsn-bg-pattern bg-offset bg-square">
-            <svg class="dsn-separator-bottom dsn-icon-assistant-color" width="100%" height="100%" viewbox="0 0 100 10"
-                preserveaspectratio="none">
-                <path class="path-anim separator__path" data-dsn-to="M 0 0 C 40 0 55 0 100 0 L 0 0 Z"
-                    vector-effect="non-scaling-stroke" d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"></path>
-            </svg>
-        </div>
-
-    </div> -->
-
 <!-- ========== Menu ========== -->
 <header id="site_menu_header" class="site-header d-none">
     <div class="main-logo">
@@ -254,10 +203,11 @@
                 </a>
             </li>
             <li class="nav-item ">
-                <a href="login.php" class="background-theme has-border-radius login-btn">
+                <a id="loginProfileLink" href="login.php" class="background-theme has-border-radius login-btn">
                     Login
                 </a>
             </li>
+
         </ul>
 
         <div class="container-content  d-flex flex-column justify-content-center section-margin">
@@ -303,3 +253,4 @@
 
 </header>
 <!-- ========== End Menu ========== -->
+
