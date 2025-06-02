@@ -59,21 +59,16 @@
                         <div class="social-box d-flex align-items-center">
 
                             <ul class="dsn-socials box-social">
-                                <li>
-                                    <a href="#0" target="_blank" class="background-main">
-                                        <i class="fab fa-facebook-f" aria-hidden="true"></i> <span>FB</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#0" target="_blank" class="background-main">
-                                        <i class="fab fa-instagram" aria-hidden="true"></i> <span>IN</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#0" target="_blank" class="background-main">
-                                        <i class="fab fa-twitter" aria-hidden="true"></i> <span>TW</span>
-                                    </a>
-                                </li>
+                                 <li>
+                        <a href="https://www.facebook.com/profile.php?id=61572648208427" target="_blank" class="background-main">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i> <span>FB</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/sampoornmarketing_pvtltd?igsh=MW8zaHl1OGw5MTY2cg==" target="_blank" class="background-main">
+                            <i class="fab fa-instagram" aria-hidden="true"></i> <span>IN</span>
+                        </a>
+                    </li>
                             </ul>
                         </div>
                     </div>
