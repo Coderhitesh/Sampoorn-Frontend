@@ -204,7 +204,7 @@
                 formData.phoneNo = phoneInput.value;
                 formData.Password = passwordInput.value;
 
-                const response = await axios.post('http://localhost:5001/api/v1/login', formData);
+                const response = await axios.post('https://api.sampoornmarketing.com/api/v1/login', formData);
                 const { token, user } = response.data;
 
                 // Store in sessionStorage

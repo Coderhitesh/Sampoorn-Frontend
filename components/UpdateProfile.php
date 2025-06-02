@@ -927,7 +927,7 @@
             setLoading(true);
 
             try {
-                const response = await fetch(`http://localhost:5001/api/v1/get_distributor_by_id/${userId}`);
+                const response = await fetch(`https://api.sampoornmarketing.com/api/v1/get_distributor_by_id/${userId}`);
                 const result = await response.json();
 
                 if (response.ok) {
@@ -1013,7 +1013,7 @@
             setLoading(true);
 
             try {
-                const response = await fetch(`http://localhost:5001/api/v1/update_profile/${userId}`, {
+                const response = await fetch(`https://api.sampoornmarketing.com/api/v1/update_profile/${userId}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',

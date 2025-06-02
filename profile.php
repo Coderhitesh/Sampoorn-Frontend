@@ -240,7 +240,7 @@
         // Fetch user data from API
         async function fetchUserData(userId) {
             try {
-                const response = await fetch(`http://localhost:5001/api/v1/get_distributor_by_id/${userId}`, {
+                const response = await fetch(`https://api.sampoornmarketing.com/api/v1/get_distributor_by_id/${userId}`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
@@ -264,7 +264,7 @@
         // Fetch distributor data from API
         async function fetchDistributorData(userId) {
             try {
-                const response = await fetch(`http://localhost:5001/api/v1/get_distributor_by_id/${userId}`, {
+                const response = await fetch(`https://api.sampoornmarketing.com/api/v1/get_distributor_by_id/${userId}`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',

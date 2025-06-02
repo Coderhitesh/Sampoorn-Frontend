@@ -157,7 +157,7 @@
          formDataToSend.append('type', 'Retailer');
 
          try {
-           const response = await axios.post('http://localhost:5001/api/v1/create_distributor', formDataToSend);
+           const response = await axios.post('https://api.sampoornmarketing.com/api/v1/create_distributor', formDataToSend);
            const data = response.data;
 
            if (data.success) {

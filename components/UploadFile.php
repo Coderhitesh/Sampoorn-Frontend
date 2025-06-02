@@ -139,7 +139,7 @@
 
                 try {
                     const res = await axios.put(
-                        `http://localhost:5001/api/v1/update_file_By_provider/${this.userId}`,
+                        `https://api.sampoornmarketing.com/api/v1/update_file_By_provider/${this.userId}`,
                         formData,
                         {
                             headers: {

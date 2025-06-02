@@ -85,7 +85,7 @@
 
             async handleFetchProviderData() {
                 try {
-                    const response = await axios.get(`http://localhost:5001/api/v1/get_distributor_by_id/${this.userId}`);
+                    const response = await axios.get(`https://api.sampoornmarketing.com/api/v1/get_distributor_by_id/${this.userId}`);
                     const data = response.data;
                     
                     if (data?.data?.fileUploadedByAdmin?.url) {

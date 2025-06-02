@@ -1474,7 +1474,7 @@
 
                         // Submit to API
                         //logInfo('Sending POST request to API');
-                        const response = await fetch('http://localhost:5001/api/v1/create_distributor', {
+                        const response = await fetch('https://api.sampoornmarketing.com/api/v1/create_distributor', {
                             method: 'POST',
                             body: formData,
                             headers: {

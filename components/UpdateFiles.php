@@ -147,7 +147,7 @@
                 if (!this.userId) return;
                 
                 try {
-                    const response = await axios.get(`http://localhost:5001/api/v1/get_distributor_by_id/${this.userId}`);
+                    const response = await axios.get(`https://api.sampoornmarketing.com/api/v1/get_distributor_by_id/${this.userId}`);
                     const distributorData = response.data.data;
                     this.role = distributorData?.type;
 
@@ -344,7 +344,7 @@
                 });
 
                 try {
-                    const response = await axios.put(`http://localhost:5001/api/v1/update_profile/${this.userId}`, formDataToSend);
+                    const response = await axios.put(`https://api.sampoornmarketing.com/api/v1/update_profile/${this.userId}`, formDataToSend);
                     const data = response.data;
 
                     if (data.success) {
